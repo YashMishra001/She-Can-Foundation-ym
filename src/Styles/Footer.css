@@ -1,0 +1,24 @@
+.footer {
+  background: linear-gradient(135deg, #4d1f78, #2b0d47);
+
+  padding: 30px 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+  font-size: 26px;
+}
+
+@media (max-width: 600px) {
+  .footer{
+    flex-direction: column;
+  }
+}
+
