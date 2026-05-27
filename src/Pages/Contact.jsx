@@ -24,7 +24,8 @@ const ContactPage = () => {
 
 const handleSubmit = (e) =>{
   e.preventDefault();
-  alert(data);
+  console.log(data);
+  alert("Submited");
   setData({
      name:"",
     email:"",
